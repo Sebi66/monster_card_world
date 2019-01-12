@@ -1,0 +1,28 @@
+.card_container{
+    height: 150xp;
+    display: grid;
+    grid-template-rows: 25px auto 25px;
+    grid-gap: 5px;
+    background-color: #5C62B1;
+}
+
+.card_header{
+    background-color: #2E2F3D;
+    color: #696B80;
+}
+
+.card_header > div{
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: inherit;
+}
+
+.card_content{
+    background-color:inherit;
+}
+
+.card_footer{
+    background-color:inherit;
+}
+
